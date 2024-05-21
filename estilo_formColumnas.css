@@ -1,0 +1,73 @@
+
+/* Estilos formulario a dos columnas */
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.contobj {
+    width: 90%;
+    margin: 4%;
+    background-color: #dfd6bc;
+    height: auto;
+    float: left;
+}
+
+.contobj form{
+    width: 90%;
+    margin: auto;
+    padding: 1%;
+}
+
+.f{
+    max-width: 100%;
+    margin-top: 1%;
+}
+
+.c{
+    width: 50%;
+    float: left;
+    padding: 2%;
+}
+
+.c input{
+    width: 100%;
+    padding: 2%;
+    border-radius: .8vw;
+    border-style: none;
+
+}
+
+.c label{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.4vw;
+}
+
+.boton input{
+    background-color: #5D75E8;
+    max-width: 100%;
+    padding: 1% 4%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    float: left;
+    margin-left: 2%;
+    margin-bottom: 5%;
+    font-size: 1.2vw;
+    border-radius: .8vw;
+    border-style: none;
+    color: #f5f5dc;
+}
+
+.boton input:hover{
+    background-color: #FF123A;
+    color: #E8C55D;
+}
+
+.encabezado_form{
+    font-size: 1.2vw;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 5%;
+    margin-top: 1%;
+}
+

@@ -1,0 +1,196 @@
+/* Estilo Index */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.encabezado{
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.encabezado h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 3vw;
+    color: #060b22;
+    padding: 0% 12%;
+    padding-top: 3%;
+}
+
+.encabezado img {
+    width: 10%;
+    float: left;
+    padding: 1%;
+}
+
+.clearfix::after{
+    content: " ";
+    display: table;
+    clear: both;
+}
+.encabezado nav{
+    max-width: 100%;
+    background-color: #5D75E8;
+    overflow: hidden;
+}
+.encabezado a{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.4vw;
+    color: #ffff;
+    float: left;
+    text-decoration: none;
+    padding: 2% 3%;
+}
+.encabezado a:hover{
+    background-color: #FF123A;
+    color: #E8C55D;
+}
+.banner{
+    max-width: 100%;
+}
+.banner img {
+    width: 98%;
+    display: block; /* Asegura que el margen automático funcione correctamente */
+    margin: auto; /* Centra horizontalmente */
+    padding: 2% 0%;
+}
+.fila{
+    max-width: 100%;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+.columna{
+    margin: auto;
+    width: 25%;
+    padding: 1%;
+    float: left;
+}
+.galeria{
+    max-width: 100%;
+    padding: 5%;
+    background-color: #5D75E8;
+    color: #fff;
+}
+.galeria:hover{
+    background-color: #FF123A;
+    color: #E8C55D;
+
+}
+
+.galeria img{
+    width: 100%;
+}
+
+.desc p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.5vw;
+    text-align: left;
+}
+
+.footer table{
+    width: 100%;
+    height: 160px;
+    background-color: #5D75E8;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #fff;
+    text-align: center;
+    overflow: hidden;
+    float: left;
+}
+
+.footer table a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.contenedor {
+    padding: 15px;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    background-color: #FF123A;
+}
+ 
+.producto {
+    background-color: #fff;
+    box-shadow: 0 0 10px #0000001a;
+    display: grid;
+    grid-template-columns: auto 1fr;
+}
+ 
+.productoImg img {
+    max-width: 30%;
+    height: auto;
+}
+ 
+.productoDesc {
+    text-align: right;
+    padding: 2% 2%;
+}
+.acercaDe {
+    max-width: 90%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #0000001a;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:#000000;
+    font-size: 1.25vw;
+    text-align: justify;
+}
+.sesion{
+    text-align: center;
+}
+
+.footer {
+    background-color: #000;
+}
+
+.cont_perfil {
+    max-width: 100%;
+    height: 360px;
+}
+
+.encabezado_perfil{
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.encabezado_perfil h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 3vw;
+    color: #060b22;
+    padding: 0% 12%;
+    padding-top: 1%;
+}
+
+.encabezado_perfil h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2vw;
+    color: #ff1b1b;
+    padding: 0% 12%;
+}
+
+.encabezado_perfil img {
+    width: 10%;
+    float: left;
+    padding: 1%;
+}
+
+.encabezado_perfil nav{
+    max-width: 100%;
+    background-color: #5D75E8;
+    overflow: hidden;
+}
+.encabezado_perfil a{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.4vw;
+    color: #ffff;
+    float: left;
+    text-decoration: none;
+    padding: 2% 3%;
+}
+.encabezado_perfil a:hover{
+    background-color: #FF123A;
+    color: #E8C55D;
+}

@@ -1,0 +1,87 @@
+/*Estilos iniciar sesión */
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.form{
+    max-width: 50%;
+    height: auto;
+    margin: auto;
+}
+
+.encabezado_sesion{
+    max-width: 100%;
+    height: auto;
+}
+
+.encabezado_sesion h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 3vw;
+    text-align: left;
+    color: black;
+    letter-spacing: 1px;
+    padding: 3% 4%;
+}
+
+.encabezado_sesion img{
+    float: left;
+    width: 16%;
+    padding: 2% 4%;
+}
+
+.form form{
+
+    max-width: 50%;
+    margin: 15% auto 20%;
+    text-align: center;
+    background-color: #f7e9fc;
+    padding: 2% 6%;
+
+}
+
+.form input {
+    width: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 3vb;
+    text-align: center;
+    padding: 2%;
+    /*podemos omitir estos estilos*/
+    border: 1px solid;
+    border-style: outset;
+    border-radius: 2px;
+}
+
+.form #enviar {
+    width: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.5vw;
+    padding: 2.5%;
+    background-color: #5D75E8;
+    color: #ffff;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.form #enviar:hover{
+    background-color: #FF123A;
+}
+
+.footer table{
+    width: 100%;
+    height: 160px;
+    background-color: #5D75E8;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #fff;
+    text-align: center;
+    overflow: hidden;
+    float: left;
+}
+
+.footer table a{
+    text-decoration: none;
+    color: #ffff;
+}
